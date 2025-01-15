@@ -65,10 +65,10 @@ a{
 }
 
 .bottom {
-    flex-wrap: wrap;
-    gap: 8rem;
+    gap: 6rem;
     margin-top: 4rem;
     margin-bottom: 4rem;
+    flex-wrap: wrap;
 }
 
 .sign-up-button{
@@ -81,4 +81,41 @@ a{
     align-items: center;
     margin-top: 40px;
     font-weight:bold;
+}
+
+.infomation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4rem;
+}
+
+.box-row{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    gap: 4rem ;
+}
+
+.boxes{
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.box{
+    border: 2px solid blue; 
+    border-radius: 25px;
+    height: 200px;
+    width: 200px;
+}
+
+.info-title{
+font-size: 30px;
+
 }
