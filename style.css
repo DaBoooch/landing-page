@@ -72,7 +72,7 @@ a{
 }
 
 .sign-up-button{
-    background-color: rgb(0, 153, 255);
+    background-color: #3882F6;
     color: white;
     height: 50px;
     width: 150px;
@@ -97,6 +97,8 @@ a{
     flex-direction: row;
     flex: 1;
     gap: 4rem ;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .boxes{
@@ -109,7 +111,7 @@ a{
 }
 
 .box{
-    border: 2px solid blue; 
+    border: 2px solid #3882F6; 
     border-radius: 25px;
     height: 200px;
     width: 200px;
