@@ -71,7 +71,7 @@ a{
     flex-wrap: wrap;
 }
 
-.sign-up-button{
+.sign-up-button {
     background-color: #3882F6;
     color: white;
     height: 50px;
@@ -119,5 +119,52 @@ a{
 
 .info-title{
 font-size: 30px;
+}
+
+q{
+    font-size: 36px;
+    quotes: initial;
+    font-family: light italic;
+    color: #1F2937;
+}
+
+.quote-section{
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quoter {
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+}
+
+.quote-box{
+    max-width: 800px;
+    margin: 6rem;
+}
+
+.cta-section{
+    padding: 4rem;
+    color: white;
+}
+
+.cta-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 2rem;
+    margin: auto;
+    max-width: 800px;
+}
+
+.cta-button{
+    padding: 5px 30px 5px;
+    border: solid white;
+    color: white;
+
 
 }
