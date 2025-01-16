@@ -1,7 +1,8 @@
 body {
-    height: 100vh;
     margin: 0;
     font-family: roboto;
+    display: flex;
+    flex-direction: column;
 }
 
 .header{
@@ -165,6 +166,13 @@ q{
     padding: 5px 30px 5px;
     border: solid white;
     color: white;
-
-
 }
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #1F2937;
+    color: white;
+  }
